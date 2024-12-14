@@ -1,4 +1,4 @@
-**Summary** 
+****Summary****
 
 The program main_run.py was created in order to help logging attendance for students. The data folder is supposed to contain the OCR scans of each individual attendance sheets. The program takes one attendance sheet text file , and data.csv ( dataframe of all students) as an input and outputs missing_all_results.csv that contains name of students that have 2 or more fields missing. Additionally for further detail, comparison_results.csv tabulizes thye fields of each student and gives a true or false value bbased on whether they were found in the document. The comparison returns true with a tolerance of 0.8 ( 80 % match) and does not require an exact match to return true
 
